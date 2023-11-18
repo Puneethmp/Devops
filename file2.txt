@@ -1,0 +1,213 @@
+
+UDAY@Puneeth MINGW64 ~/Desktop
+$ mkdir Repo
+
+UDAY@Puneeth MINGW64 ~/Desktop
+$ ls
+ Asphalt9.lnk*
+ Azur-main.zip
+ BlueStacks-Support.7z
+ Dark-theme-portfolio-main/
+ Devops/
+'Devops Course Nana'/
+'Eclipse IDE for Enterprise Java and Web Developers - 2023-06.lnk'*
+ Fam/
+ FreeFireMAX.lnk*
+ Infosys.txt
+ MEGAsync.lnk*
+'Microsoft Edge.lnk'*
+ MongoDBCompass.lnk*
+ PLAYit.lnk*
+ Photos/
+ Postman.lnk*
+ Prashanth_Anna/
+ Repo/
+ Telegram.lnk*
+'Visual Studio Code.lnk'*
+ Zoom.lnk*
+ admin/
+ angular.txt
+ backend/
+ desktop.ini
+ fs/
+ learn/
+ new/
+ port/
+'puneeth - Chrome.lnk'*
+ react-simple-chatbot-master.zip
+ reactjs/
+ roombr-backend/
+ uday
+ virtuelive/
+ µTorrent.lnk*
+
+UDAY@Puneeth MINGW64 ~/Desktop
+$ ls -lrt
+total 755
+-rw-r--r-- 1 UDAY 197121    282 Jul 20 19:20  desktop.ini
+-rwxr-xr-x 1 UDAY 197121   1403 Jul 21 22:43 'Visual Studio Code.lnk'*
+drwxr-xr-x 1 UDAY 197121      0 Jul 23 11:25  fs/
+-rwxr-xr-x 1 UDAY 197121   2344 Jul 23 13:58  MongoDBCompass.lnk*
+drwxr-xr-x 1 UDAY 197121      0 Jul 30 14:06  backend/
+drwxr-xr-x 1 UDAY 197121      0 Jul 30 15:41  reactjs/
+-rwxr-xr-x 1 UDAY 197121   1095 Aug  5 22:59 'Eclipse IDE for Enterprise Java and Web Developers - 2023-06.lnk'*
+-rwxr-xr-x 1 UDAY 197121   2394 Aug  7 18:57 'puneeth - Chrome.lnk'*
+-rwxr-xr-x 1 UDAY 197121   2041 Aug 19 19:41  FreeFireMAX.lnk*
+-rwxr-xr-x 1 UDAY 197121   2105 Aug 25 14:59  Asphalt9.lnk*
+drwxr-xr-x 1 UDAY 197121      0 Sep 24 14:19  learn/
+drwxr-xr-x 1 UDAY 197121      0 Oct  1 20:07  Prashanth_Anna/
+-rw-r--r-- 1 UDAY 197121 312987 Oct 12 14:48  BlueStacks-Support.7z
+drwxr-xr-x 1 UDAY 197121      0 Oct 14 19:45  Dark-theme-portfolio-main/
+drwxr-xr-x 1 UDAY 197121      0 Oct 14 19:47  port/
+drwxr-xr-x 1 UDAY 197121      0 Oct 16 12:08  admin/
+-rw-r--r-- 1 UDAY 197121      0 Oct 20 11:59  uday
+-rw-r--r-- 1 UDAY 197121    176 Oct 21 17:54  Infosys.txt
+-rw-r--r-- 1 UDAY 197121 126973 Oct 23 20:10  Azur-main.zip
+drwxr-xr-x 1 UDAY 197121      0 Oct 23 20:13  new/
+-rw-r--r-- 1 UDAY 197121    365 Oct 25 14:10  angular.txt
+-rw-r--r-- 1 UDAY 197121 205040 Oct 26 22:22  react-simple-chatbot-master.zip
+drwxr-xr-x 1 UDAY 197121      0 Oct 28 16:12  Devops/
+-rwxr-xr-x 1 UDAY 197121   1924 Oct 28 16:32  PLAYit.lnk*
+drwxr-xr-x 1 UDAY 197121      0 Oct 31 11:45  roombr-backend/
+-rwxr-xr-x 1 UDAY 197121   1031 Nov  4 13:29  Telegram.lnk*
+-rwxr-xr-x 1 UDAY 197121    897 Nov  4 13:44  µTorrent.lnk*
+-rwxr-xr-x 1 UDAY 197121   1128 Nov  5 14:36  MEGAsync.lnk*
+-rwxr-xr-x 1 UDAY 197121   2186 Nov  6 11:47  Postman.lnk*
+drwxr-xr-x 1 UDAY 197121      0 Nov  6 22:34 'Devops Course Nana'/
+-rwxr-xr-x 1 UDAY 197121   2354 Nov 11 14:28 'Microsoft Edge.lnk'*
+-rwxr-xr-x 1 UDAY 197121   1930 Nov 11 15:54  Zoom.lnk*
+drwxr-xr-x 1 UDAY 197121      0 Nov 17 11:51  virtuelive/
+drwxr-xr-x 1 UDAY 197121      0 Nov 18 11:35  Fam/
+drwxr-xr-x 1 UDAY 197121      0 Nov 18 11:44  Photos/
+drwxr-xr-x 1 UDAY 197121      0 Nov 18 18:05  Repo/
+
+UDAY@Puneeth MINGW64 ~/Desktop
+$ git clone https://github.com/Puneethmp/Devops.git
+fatal: destination path 'Devops' already exists and is not an empty directory.
+
+UDAY@Puneeth MINGW64 ~/Desktop
+$ cd Repo
+
+UDAY@Puneeth MINGW64 ~/Desktop/Repo
+$ git clone https://github.com/Puneethmp/Devops.git
+Cloning into 'Devops'...
+warning: You appear to have cloned an empty repository.
+
+UDAY@Puneeth MINGW64 ~/Desktop/Repo
+$ git init
+Initialized empty Git repository in C:/Users/UDAY/Desktop/Repo/.git/
+
+UDAY@Puneeth MINGW64 ~/Desktop/Repo (master)
+$ cd devops
+
+UDAY@Puneeth MINGW64 ~/Desktop/Repo/devops (main)
+$ git init
+Reinitialized existing Git repository in C:/Users/UDAY/Desktop/Repo/Devops/.git/
+
+UDAY@Puneeth MINGW64 ~/Desktop/Repo/devops (main)
+$ touch file1.txt
+
+UDAY@Puneeth MINGW64 ~/Desktop/Repo/devops (main)
+$ ls
+file1.txt
+
+UDAY@Puneeth MINGW64 ~/Desktop/Repo/devops (main)
+$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        file1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+UDAY@Puneeth MINGW64 ~/Desktop/Repo/devops (main)
+$ git pull
+Your configuration specifies to merge with the ref 'refs/heads/main'
+from the remote, but no such ref was fetched.
+
+UDAY@Puneeth MINGW64 ~/Desktop/Repo/devops (main)
+$ git pull origin main
+fatal: couldn't find remote ref main
+
+UDAY@Puneeth MINGW64 ~/Desktop/Repo/devops (main)
+$ git pull
+Your configuration specifies to merge with the ref 'refs/heads/main'
+from the remote, but no such ref was fetched.
+
+UDAY@Puneeth MINGW64 ~/Desktop/Repo/devops (main)
+$
+
+UDAY@Puneeth MINGW64 ~/Desktop/Repo/devops (main)
+$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        file1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+UDAY@Puneeth MINGW64 ~/Desktop/Repo/devops (main)
+$ git add .
+
+UDAY@Puneeth MINGW64 ~/Desktop/Repo/devops (main)
+$ git add file1.txt
+
+UDAY@Puneeth MINGW64 ~/Desktop/Repo/devops (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   file1.txt
+
+
+UDAY@Puneeth MINGW64 ~/Desktop/Repo/devops (main)
+$ git commit -m "Modified file1 text"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'UDAY@Puneeth.(none)')
+
+UDAY@Puneeth MINGW64 ~/Desktop/Repo/devops (main)
+$ git config --global user.email "puneethmp106@gmail.com"
+
+UDAY@Puneeth MINGW64 ~/Desktop/Repo/devops (main)
+$ git config --global user.name "Puneethmp"
+
+UDAY@Puneeth MINGW64 ~/Desktop/Repo/devops (main)
+$ git commit -m "Modified file1 text"
+[main (root-commit) 3beaf5a] Modified file1 text
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file1.txt
+
+UDAY@Puneeth MINGW64 ~/Desktop/Repo/devops (main)
+$ git push origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 245 bytes | 245.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Puneethmp/Devops.git
+ * [new branch]      main -> main
+
+UDAY@Puneeth MINGW64 ~/Desktop/Repo/devops (main)
+$ ^C
+
+
+UDAY@Puneeth MINGW64 ~/Desktop/Repo/devops (main)
