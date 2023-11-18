@@ -1,3 +1,5 @@
+These are the basic commands  
+
 
 UDAY@Puneeth MINGW64 ~/Desktop
 $ cd repo\devops
