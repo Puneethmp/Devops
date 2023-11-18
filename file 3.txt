@@ -1,0 +1,55 @@
+
+UDAY@Puneeth MINGW64 ~/Desktop
+$ cd repo\devops
+bash: cd: repodevops: No such file or directory
+
+UDAY@Puneeth MINGW64 ~/Desktop
+$ cd Repo/devops
+
+UDAY@Puneeth MINGW64 ~/Desktop/Repo/devops (main)
+$ ls
+file1.txt  file2.txt
+
+UDAY@Puneeth MINGW64 ~/Desktop/Repo/devops (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        file2.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+UDAY@Puneeth MINGW64 ~/Desktop/Repo/devops (main)
+$ git add .
+
+UDAY@Puneeth MINGW64 ~/Desktop/Repo/devops (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   file2.txt
+
+
+UDAY@Puneeth MINGW64 ~/Desktop/Repo/devops (main)
+$ git commit -m "Added steps of Basic Git Commands"
+[main 8a0a9e3] Added steps of Basic Git Commands
+ 1 file changed, 213 insertions(+)
+ create mode 100644 file2.txt
+
+UDAY@Puneeth MINGW64 ~/Desktop/Repo/devops (main)
+$ git push origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 2.07 KiB | 2.07 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Puneethmp/Devops.git
+   3beaf5a..8a0a9e3  main -> main
+
+UDAY@Puneeth MINGW64 ~/Desktop/Repo/devops (main)
+$
