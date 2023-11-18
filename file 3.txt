@@ -55,3 +55,21 @@ To https://github.com/Puneethmp/Devops.git
 
 UDAY@Puneeth MINGW64 ~/Desktop/Repo/devops (main)
 $
+
+UDAY@Puneeth MINGW64 ~/Desktop/Repo/devops (develop)
+$ git pull origin develop
+From https://github.com/Puneethmp/Devops
+ * branch            develop    -> FETCH_HEAD
+Updating 48c07d1..2cbdba6
+Fast-forward
+ file 3.txt | 2 ++
+ 1 file changed, 2 insertions(+)
+
+UDAY@Puneeth MINGW64 ~/Desktop/Repo/devops (develop)
+$ git status
+On branch develop
+nothing to commit, working tree clean
+
+UDAY@Puneeth MINGW64 ~/Desktop/Repo/devops (develop)
+$
+
